@@ -1,0 +1,12 @@
+{% if page.categories %}
+<section class="related-posts">
+  <h3>Related Posts:</h3>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.categories contains page.categories[0] and post.url != page.url %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

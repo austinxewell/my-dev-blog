@@ -1,0 +1,36 @@
+{% comment %}
+Social links for footer. Uses site.github_url, site.portfolio_url, site.linkedin_url
+{% endcomment %}
+
+<p>
+  {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; margin-right: 12px; text-decoration: none; color: #0A66C2;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#bfbcbc" style="margin-right: 4px;">
+        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.263.82-.583 0-.288-.01-1.05-.015-2.06-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.753-1.333-1.753-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.24 1.84 1.24 1.07 1.835 2.805 1.305 3.49.997.108-.775.418-1.305.76-1.605-2.665-.3-5.466-1.335-5.466-5.935 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 013.003-.405c1.02.005 2.045.138 3.003.405 2.288-1.552 3.294-1.23 3.294-1.23.654 1.653.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.805 5.632-5.475 5.926.43.37.815 1.096.815 2.21 0 1.596-.015 2.883-.015 3.273 0 .323.216.698.825.58C20.565 21.796 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+      </svg>
+      GitHub
+    </a>
+  {% endif %}
+
+  {% if site.portfolio_url %}
+    <a href="{{ site.portfolio_url }}" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; margin-right: 12px; text-decoration: none; color: #0A66C2;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#bfbcbc" style="margin-right: 4px;">
+        <path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM10 4h4v2h-4V4zm10 16H4V8h16v12z"/>
+      </svg>
+      Portfolio
+    </a>
+  {% endif %}
+
+  {% if site.linkedin_url %}
+    <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; text-decoration: none; color: #0A66C2;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#bfbcbc" style="margin-right: 4px;">
+        <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.75v1.71h.05c.52-.98 1.79-2.01 3.69-2.01 3.95 0 4.68 2.6 4.68 5.98V21h-4v-5.3c0-1.26-.02-2.88-1.75-2.88-1.76 0-2.03 1.37-2.03 2.79V21h-4V9z"/>
+      </svg>
+      LinkedIn
+    </a>
+  {% endif %}
+</p>
+
+
+
+
