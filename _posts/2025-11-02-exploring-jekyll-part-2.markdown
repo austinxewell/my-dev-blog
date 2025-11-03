@@ -7,7 +7,7 @@ categories: Intro to Jekyll
 
 Hey there, fellow Jekyll explorer! 🚀
 
-Welcome back to my blog journey. Yesterday I wrote my very first post, and today we’re doing something a bit cooler: **making posts talk to each other**. That’s right, we’re linking them together using categories so they can form a mini “thread” of knowledge.
+Welcome back to my blog journey. Earlier I wrote my very first post, and now I'm doing something a bit cooler: **making posts talk to each other**. That’s right, I linking them together using categories so they can form a mini “thread” of knowledge.
 
 Since this post shares the category `Intro to Jekyll` with Part 1, the **related posts section** magically shows my previous post at the bottom. No extra links needed, no copy and paste chaos, just pure automation. ✨
 
