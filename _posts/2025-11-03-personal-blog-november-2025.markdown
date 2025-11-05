@@ -7,9 +7,43 @@ categories: Personal Blog
 
 # November 2025
 
+### November 5, 2025
+
+**Back-End Progress** 🚀
+
+Today I wrapped up the **basic CRUD operations** for the back-end of my online portfolio.
+
+Along the way, I got a much deeper understanding of **SQL relationships** and what it really takes to implement a proper **login flow** on the back-end.
+
+I implemented:
+
+- **Hashing** for secure passwords
+- **Refresh tokens** and **access tokens** for proper authentication
+- The ability to **modify data safely** after login
+
+And the best part? I successfully **deployed the API**, so it’s officially live!
+
+Now comes the fun part: connecting all this data to my **front-end portfolio** and seeing it all come together. This is really exciting! 🎉
+
+---
+
 ### November 4, 2025
 
-This is a template for my next post to check formatting
+Today at work, my QA developer flagged something while implementing an access-level feature on a deployed project. While the main goal was access control, he noticed what he thought was a bug: an unnecessary API call that was slowing down the dashboard load times ⚡
+
+After digging in, I found the culprit. The API call was necessary, but it was wrapped in an `async/await` method where it didn’t need to be. This request could happen behind the scenes without making the user wait. I refactored the required API calls into a `Promise.all([])` setup and removed the request that wasn’t relevant to the user experience. The result? Load times improved by almost **85%** 🚀
+
+Here’s an example of the refactor:
+
+```javascript
+await Promise.all([
+  fetchUserData(),
+  fetchDashboardStats(),
+  // Removed unnecessary API call here
+]);
+```
+
+This got me thinking about **intent** in development. There’s a huge difference between writing code that works and writing code with purpose. The feature wasn’t broken, it did exactly what it was supposed to, but optimizing with intent made a measurable difference. Every line of code contributed to a smoother experience, letting the user get what they need faster **without losing functionality** ✨
 
 ---
 
