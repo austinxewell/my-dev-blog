@@ -9,19 +9,31 @@ categories: Personal Blog
 
 ---
 
+### November 8, 2025
+
+**Development Fatigue** 😩
+
+It's been a super busy week at work, combined with long nights working on my online portfolio. Today I finalized the **dummy flow** for creating a project and I am really happy with how it turned out.
+
+I try to get some type of development in daily, but between long work days and long personal nights, I think I am going to take a well-deserved (mostly) day off.
+
+That said, I _did_ wake up early to finalize the **Create Project** feature in my **Admin Portal** for my personal portfolio. 💤☕🖥️
+
+---
+
 ### November 7, 2025
 
-Today I dove into connecting the backend I built for my online portfolio with a front-end interface. It's always exciting to see personal projects evolve, especially when professional growth starts showing in the details.  
+Today I dove into connecting the backend I built for my online portfolio with a front-end interface. It's always exciting to see personal projects evolve, especially when professional growth starts showing in the details.
 
-Here's what I accomplished today:  
+Here's what I accomplished today:
 
-- ✅ **Login page** – fully functional and styled  
-- ✅ **Admin portal** – initial structure set up  
-- ✅ **Form modal** – ready to hold multi-step forms  
+- ✅ **Login page** – fully functional and styled
+- ✅ **Admin portal** – initial structure set up
+- ✅ **Form modal** – ready to hold multi-step forms
 
-One feature I'm particularly proud of is the **form step tracker**. It's something I used to overlook in simple multi-step forms, but seeing it implemented now adds a huge boost to usability. It's a small detail, but it really enhances the user experience.  
+One feature I'm particularly proud of is the **form step tracker**. It's something I used to overlook in simple multi-step forms, but seeing it implemented now adds a huge boost to usability. It's a small detail, but it really enhances the user experience.
 
-It's moments like this where you notice how much your development skills have grown over time. Where your professional knowledge finally is merging into personal projects. 🛠️✨  
+It's moments like this where you notice how much your development skills have grown over time. Where your professional knowledge finally is merging into personal projects. 🛠️✨
 
 Can't wait to keep building and polishing this portfolio interface.
 
