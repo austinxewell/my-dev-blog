@@ -8,10 +8,6 @@ categories: Personal Blog
 # November 2025
 
 ---
-title: "Merging Personal Projects with Professional Growth"
-date: 2025-11-07
-categories: development
----
 
 ### November 7, 2025
 
