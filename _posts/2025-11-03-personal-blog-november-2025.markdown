@@ -21,7 +21,7 @@ Here's what I accomplished today:
 
 One feature I'm particularly proud of is the **form step tracker**. It's something I used to overlook in simple multi-step forms, but seeing it implemented now adds a huge boost to usability. It's a small detail, but it really enhances the user experience.  
 
-It's moments like this where you notice how much your development skills have grown over time—professional knowledge finally merging into personal projects. 🛠️✨  
+It's moments like this where you notice how much your development skills have grown over time. Where your professional knowledge finally is merging into personal projects. 🛠️✨  
 
 Can't wait to keep building and polishing this portfolio interface.
 
