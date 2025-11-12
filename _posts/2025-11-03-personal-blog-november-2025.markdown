@@ -13,7 +13,7 @@ categories: Personal Blog
 
 **Tailwind Love... Until Tables Come Around** 🎨  
 
-I’ll say it — I love using **Tailwind CSS**. The speed, flexibility, and control it gives when building UIs is unmatched. Being able to rapidly style and adjust components without leaving my markup has completely changed how I approach front-end development.  
+I’ll say it... I love using **Tailwind CSS**. The speed, flexibility, and control it gives when building UIs is unmatched. Being able to rapidly style and adjust components without leaving my markup has completely changed how I approach front-end development.  
 
 That said, there is one area where Tailwind really starts to show its limits: **tables**.  
 
