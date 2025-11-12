@@ -9,7 +9,7 @@ categories: Personal Blog
 
 ---
 
-### November 11
+### November 11, 2025
 
 **Tailwind Love... Until Tables Come Around** 🎨  
 
@@ -25,7 +25,7 @@ So while I will keep using Tailwind for most of my UI, tables are one place wher
 
 ---
 
-### November 10
+### November 10, 2025
 
 **Building for the Future: The Importance of Componentizing Features** ⚙️  
 
