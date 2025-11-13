@@ -17,7 +17,7 @@ If you’ve ever logged into a site and saw your little circle with your face (o
 
 Here’s my personal reflection on crafting a solid avatar component in a front-end project.
 
-##### 1. Size Matters
+#### 1. Size Matters
 
 Not all avatars are created equal. Sometimes you need a tiny circle for a chat sidebar, other times a big one for a profile page. A good avatar component lets you **set the size with a simple prop**. For example:
 
@@ -27,13 +27,13 @@ Not all avatars are created equal. Sometimes you need a tiny circle for a chat s
 
 Keeping these sizes consistent avoids tiny inconsistencies that subtly make an app feel sloppy.  
 
-#####  2. Loading Gracefully
+####  2. Loading Gracefully
 
 Ever clicked on a profile and saw a flicker of blank gray before the image loaded? That’s a missed opportunity.  
 
 A neat trick: **use a pulsing placeholder** while the image loads. It’s a small touch, but it makes the interface feel alive rather than static. Kind of like saying, “Hey, I see you’re coming, hold on!”  
 
-##### 3. Fallback Initials
+#### 3. Fallback Initials
 
 Not everyone uploads a profile picture. That’s why **initials are your friend**. A simple rule:
 
@@ -43,7 +43,7 @@ Not everyone uploads a profile picture. That’s why **initials are your friend*
 
 💡 Tip: Filter out extra spaces and weird edge cases so `"  John   Doe  "` still becomes `JD`. No surprises, just clean fallback.  
 
-##### 4. A Bit of Personality
+#### 4. A Bit of Personality
 
 A user avatar isn’t just functional, it can carry **visual charm**:
 
@@ -53,7 +53,7 @@ A user avatar isn’t just functional, it can carry **visual charm**:
 
 Even a tiny component like this communicates care for details in your app.  
 
-##### 5. Keep it Flexible
+#### 5. Keep it Flexible
 
 The real secret to a good component? **Flexibility without over-complication**. Props for:
 
@@ -63,7 +63,7 @@ The real secret to a good component? **Flexibility without over-complication**. 
 
 …plus some smart defaults, and you’ve got a component that works everywhere without constant tweaking.  
 
-##### TL;DR
+#### TL;DR
 
 A user avatar is tiny, but it’s mighty. Handle loading elegantly, fallback smartly, size consistently, and sprinkle a little personality on top. It’s a small piece of UI, but it can make your app feel more thoughtful, polished, and alive.  
 
