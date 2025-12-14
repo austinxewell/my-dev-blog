@@ -13,7 +13,7 @@ categories: Personal Blog
 
 **Back At It (Ironically Enough)** 😅
 
-It has been a little over a month since I last posted, which is funny considering one of my previous entries was literally titled **Development Fatigue**. I took that break, and then life doubled down.
+It has been a few weeks since I last posted, which is funny considering one of my previous entries was literally titled **Development Fatigue**. I took that break, and then life doubled down.
 
 Over the past month, personal and family health issues pulled my attention where it needed to be. Development took a back seat, not because of burnout, but because priorities shifted. That kind of pause is never planned, but sometimes it is necessary.
 
