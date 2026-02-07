@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Personal Blog - December 2025"
-date: 2025-11-03 08:00:00 -0700
+date: 2025-12-03 08:00:00 -0700
 categories: Personal Blog
 ---
 
