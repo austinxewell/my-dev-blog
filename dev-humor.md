@@ -4,6 +4,8 @@ title: Dev Humor
 permalink: /dev-humor/
 ---
 
+![Gentle Whisper](https://plaky.com/blog/wp-content/uploads/2023/08/Found-another-bug-1.jpg)
+
 ![Buff Dev](https://pbs.twimg.com/media/EfneDghXgAAbjH7.jpg)
 
 ![I Am Responsible](https://plaky.com/blog/wp-content/uploads/2023/08/It-was-me.jpg)
