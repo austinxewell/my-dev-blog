@@ -4,6 +4,8 @@ title: Dev Humor
 permalink: /dev-humor/
 ---
 
+![Spider Webs](https://i.programmerhumor.io/2023/05/programmerhumor-io-frontend-memes-programming-memes-bbaac14132a5e6f.jpg)
+
 ![Gentle Whisper](https://plaky.com/blog/wp-content/uploads/2023/08/Found-another-bug-1.jpg)
 
 ![Buff Dev](https://pbs.twimg.com/media/EfneDghXgAAbjH7.jpg)
