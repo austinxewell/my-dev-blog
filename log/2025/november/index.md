@@ -1,6 +1,6 @@
 ---
 layout: default
-title: December 2025
+title: November 2025
 permalink: /log/2025/november/
 ---
 
@@ -11,7 +11,7 @@ permalink: /log/2025/november/
     {% assign ym = post.date | date: "%Y-%m" %}
     {% if ym == "2025-11" and post.categories contains "personal-blog" %}
       <li>
-        <a href="{{ post.url | relative_url }}">
+        <a href="{{ "/log/2026/november/" | relative_url }}">
         {{ post.date | date: "%b %-d" }} - {{ post.title }}
         </a>
       </li>
