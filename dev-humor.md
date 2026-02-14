@@ -2,6 +2,7 @@
 layout: page
 title: Dev Humor
 permalink: /dev-humor/
+nav: true
 ---
 
 ![Spider Webs](https://i.programmerhumor.io/2023/05/programmerhumor-io-frontend-memes-programming-memes-bbaac14132a5e6f.jpg)
