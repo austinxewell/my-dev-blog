@@ -1,14 +1,15 @@
 ---
 layout: default
-title: February 2026
+title: December 2025
+permalink: /log/2025/november/
 ---
 
-<h1>February 2026</h1>
+<h1>November 2025</h1>
 
 <ul class="log-list">
   {% for post in site.posts %}
     {% assign ym = post.date | date: "%Y-%m" %}
-    {% if ym == "2026-02" and post.categories contains "personal-blog" %}
+    {% if ym == "2025-11" and post.categories contains "personal-blog" %}
       <li>
         <a href="{{ post.url | relative_url }}">
         {{ post.date | date: "%b %-d" }} - {{ post.title }}
