@@ -1,8 +1,7 @@
 ---
 layout: home
+title: "Hi, I'm Austin 👋"
 ---
-
-# Hi, I'm Austin 👋
 
 I’m a **Front-End Engineer** focused on building **scalable, maintainable, and user-friendly web applications**. I specialize in **Nuxt, TypeScript, Vue, and modern front-end architectures**, and I enjoy translating complex design and product requirements into seamless user experiences.
 
