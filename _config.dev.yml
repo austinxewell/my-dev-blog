@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi, I’m Austin, a Full Stack Web Developer. I build projects, share insights, and occasionally geek out over cool web tricks and experiments.
 
 # COMMENT BASEURL OUT TO VIEW IN LOCAL:
-baseurl: "/my-dev-blog/" # the subpath of your site, e.g. /blog
-url: "https://austinxewell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: austinxewell
 github_username: austinxewell
 portfolio_url: "https://auewellify.dev/"

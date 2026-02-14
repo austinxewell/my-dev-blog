@@ -1,10 +1,51 @@
-{% if page.categories %}
+{%- comment -%}
+RULES:
+1. If page is personal-blog → NO related section
+2. personal-blog is ignored for overlap, not excluded
+3. Related posts require overlap in non-personal categories
+{%- endcomment -%}
+
+{% if page.show_related == false %}
+  {% assign show = false %}
+{% elsif page.categories contains "personal-blog" %}
+  {% assign show = false %}
+{% else %}
+  {% assign show = true %}
+{% endif %}
+
+{% if show %}
 <section class="related-posts">
-  <h3>Related Posts:</h3>
+  <h3>Related Posts</h3>
+
   <ul>
+    {% assign related_count = 0 %}
+
+    {%- assign page_categories =
+      page.categories | where_exp: "c", "c != 'personal-blog'"
+    -%}
+
     {% for post in site.posts %}
-      {% if post.categories contains page.categories[0] and post.url != page.url %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% if post.url != page.url and post.categories %}
+
+        {%- assign post_categories =
+          post.categories | where_exp: "c", "c != 'personal-blog'"
+        -%}
+
+        {% assign overlap = post_categories | intersection: page_categories %}
+
+        {% if overlap.size > 0 %}
+          <li>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </li>
+
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+
+      {% if related_count >= 5 %}
+        {% break %}
       {% endif %}
     {% endfor %}
   </ul>

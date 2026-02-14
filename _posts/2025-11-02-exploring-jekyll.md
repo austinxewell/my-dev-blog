@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring Jekyll"
 date: 2025-11-02 01:09:33 -0700
-categories: Intro to Jekyll
+categories: [jekyll]
 ---
 
 Hello, world! This is my first Jekyll blog post. 🎉

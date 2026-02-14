@@ -31,11 +31,9 @@ cd my-dev-blog
 # Install dependencies
 bundle install
 
-# To allow local routing in the _config.yml file comment out baseurl
-
 # Serve locally
-bundle exec jekyll serve
+ bundle exec jekyll serve --config _config.yml,_config.dev.yml
 
 # Visit in your browser
-http://localhost:4000
+http://localhost:4000 or {ip}:4000
 ```
