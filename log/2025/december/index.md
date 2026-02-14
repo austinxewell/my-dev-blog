@@ -1,6 +1,7 @@
 ---
 layout: default
 title: December 2025
+permalink: /log/2025/december/
 ---
 
 <h1>December 2025</h1>
