@@ -5,6 +5,8 @@ permalink: /dev-humor/
 nav: true
 ---
 
+![Working Code](https://miro.medium.com/v2/resize:fit:1000/1*YZjNE4fnXsR6ov5m7pRrqA.jpeg)
+
 ![Spider Webs](https://i.programmerhumor.io/2023/05/programmerhumor-io-frontend-memes-programming-memes-bbaac14132a5e6f.jpg)
 
 ![Gentle Whisper](https://plaky.com/blog/wp-content/uploads/2023/08/Found-another-bug-1.jpg)
