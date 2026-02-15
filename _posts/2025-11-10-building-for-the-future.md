@@ -2,7 +2,8 @@
 layout: post
 title: "Building for the Future: The Importance of Componentizing Features"
 date: 2025-11-10 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, vue, nuxt, scalability, architecture]
 ---
 
 One of the biggest lessons I’ve learned in front-end development is the importance of **componentizing features**. When you’re building an app, it’s easy to start stacking logic, UI, and functionality all in one place. It works at first, but as soon as you scale or revisit that code, it becomes a tangled mess.

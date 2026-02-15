@@ -2,7 +2,8 @@
 layout: post
 title: "Inside a Smarter Chart Component"
 date: 2026-2-10 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, nuxt, components]
 ---
 
 The past couple week I spent time working on a chart component that we knew from the beginning would be a meaningful and carefully planned update. While it might look simple at first glance, this work touched several areas of the application and required thinking beyond just visual output.

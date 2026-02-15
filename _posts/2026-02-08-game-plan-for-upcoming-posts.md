@@ -3,6 +3,7 @@ layout: post
 title: "Game Plan For Upcoming Posts"
 date: 2026-2-8 08:00:00 -0700
 categories: [personal-blog]
+tags: [frontend, backend, nuxt, typescript, javascript, planning]
 ---
 
 Since I have so much going on right now, I want to write down a clear game plan for the posts I want to share next. This is as much for me as it is for anyone reading. It helps me slow down, organize my thoughts, and actually finish posts instead of letting ideas pile up.

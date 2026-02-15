@@ -2,7 +2,8 @@
 layout: post
 title: "Exploring Jekyll"
 date: 2025-11-02 01:09:33 -0700
-categories: [jekyll]
+categories: [personal-blog, public]
+tags: [jekyll]
 ---
 
 Hello, world! This is my first Jekyll blog post. 🎉
@@ -16,3 +17,7 @@ Here are a few things I discovered while setting up my blog:
 3. **Previewing locally is key**. Running `bundle exec jekyll serve` lets me see my posts at [http://localhost:4000](http://localhost:4000). I need to comment out the baseurl in `_config.yml` to make it work locally, and I am excited to explore cleaner ways to sync between local and development environments.
 
 This first post is just the beginning. I am looking forward to experimenting more, writing follow-ups, and building a small collection of posts that document my learning journey.
+
+**Update:** `2/13/2026`
+
+I have created a dev config and a deployment config to help reduce complexity in building and deploying the project. Now instead of running `bundle exec jekyll serve` in our local environment, we have to tell the build to replace the `_config.yml` file with `_config.dev.yml`. The new command is: `bundle exec jekyll serve --config _config.yml,_config.dev.yml`

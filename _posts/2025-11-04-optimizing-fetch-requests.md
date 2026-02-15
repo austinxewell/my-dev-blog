@@ -2,7 +2,8 @@
 layout: post
 title: "Optimizing Fetch Requests"
 date: 2025-11-04 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, api, javascript, optimization]
 ---
 
 Today at work, my QA developer flagged something while implementing an access-level feature on a deployed project. While the main goal was access control, he noticed what he thought was a bug: an unnecessary API call that was slowing down the dashboard load times ⚡

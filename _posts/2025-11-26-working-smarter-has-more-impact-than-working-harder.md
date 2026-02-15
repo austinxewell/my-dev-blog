@@ -2,7 +2,8 @@
 layout: post
 title: "Working Smarter Has More Impact Than Working Harder"
 date: 2025-11-26 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [process, agile, problem-solving]
 ---
 
 One thing I have learned in the professional world is that the best developer is not always the one grinding the longest hours. It is usually the person who steps back, looks at the bigger picture, and **solves the right problem**. Real impact comes from removing friction, not adding more tasks to your plate.
@@ -24,7 +25,7 @@ I saw a few major problems right away:
 - Missed deadlines lead to blame
 - And the worst part, people stop feeling heard
 
-So I did something simple. I built my own planning poker app. Nothing huge. No months of work. Just a clean little tool that used my backend, web sockets, and a simple UI. Something I could use to strengthen my portfolio **and** help my team.
+So I did something simple. I built my own planning poker app. Nothing huge. No months of work. Just a clean little tool that used backend, web sockets, and a simple UI. Something I could use to strengthen my portfolio **and** help my team.
 
 The result:
 
@@ -35,7 +36,7 @@ The result:
 - The team feels more respected
 - The entire process runs smoother
 
-The whole thing took me one day.
+The whole MVP took me one day.
 
 One day of work now saves **hours every single sprint** for multiple teams. That single day of effort pays off over and over again. That is the part that matters. I did not need to work harder. I just needed to solve a problem that was slowing everyone down.
 

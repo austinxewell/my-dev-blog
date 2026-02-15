@@ -3,6 +3,7 @@ layout: post
 title: "Development Fatigue"
 date: 2025-11-08 08:00:00 -0700
 categories: [personal-blog]
+tags: [workflow, productivity]
 ---
 
 It's been a super busy week at work, combined with long nights working on my online portfolio. Today I finalized the **dummy flow** for creating a project and I am really happy with how it turned out.

@@ -2,7 +2,8 @@
 layout: post
 title: "The Reality of Agile Development"
 date: 2025-11-12 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [agile, workflow, project-management]
 ---
 
 Agile is one of those things that every developer ends up having an opinion about. After working within Agile environments for a while, I can see why it is such a common approach. When done right, it keeps teams aligned, communication flowing, and progress visible. When done wrong, it can feel like endless standups and planning sessions that slow everything down.

@@ -2,7 +2,8 @@
 layout: post
 title: "Why Pseudocoding Matters in Complex Flows"
 date: 2025-11-19 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [pseudocode, planning, frontend, backend]
 ---
 
 The more I grow as a developer, the more I appreciate the value of pseudocoding. When a feature has a simple flow, it is easy to jump straight into the implementation. But once the logic gets deeper or the steps start branching, writing everything directly in code becomes a recipe for confusion.

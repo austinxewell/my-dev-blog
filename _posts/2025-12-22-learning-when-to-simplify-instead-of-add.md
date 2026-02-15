@@ -3,6 +3,7 @@ layout: post
 title: "Learning When to Simplify Instead of Add"
 date: 2025-12-22 08:00:00 -0700
 categories: [personal-blog]
+tags: [frontend, components, scalability]
 ---
 
 Lately I have been catching myself doing something that used to feel productive but really was not. Adding more abstraction, more helpers, more layers, just because I could. It looked clean on the surface, but it made the system harder to reason about.

@@ -2,7 +2,8 @@
 layout: post
 title: "Why Reusable UI Components Actually Matter"
 date: 2025-12-17 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, ux-ui, scalability]
 ---
 
 Lately I’ve been spending a lot of time working on UI components, especially things like **modals**, and it keeps reinforcing the same lesson over and over. Reusable and scalable UI components are not just a nice-to-have. They are a requirement if you want an application to grow without becoming a nightmare to maintain.

@@ -2,7 +2,8 @@
 layout: post
 title: "When Your Database Looks Dead but Isn’t"
 date: 2026-2-11 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [backend, devops, nodejs, mysql, railway, database, jekyll]
 ---
 
 As a developer, few things are as alarming as seeing your backend throw **ETIMEDOUT** errors on every request. Today, I ran into that exact situation with my Node.js portfolio running on Railway.

@@ -2,7 +2,8 @@
 layout: post
 title: "Tailwind Love... Until Tables Come Around"
 date: 2025-11-11 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, css, tailwind, scss, ux-ui, responsive-design]
 ---
 
 I’ll say it... I love using **Tailwind CSS**. The speed, flexibility, and control it gives when building UIs is unmatched. Being able to rapidly style and adjust components without leaving my markup has completely changed how I approach front-end development.

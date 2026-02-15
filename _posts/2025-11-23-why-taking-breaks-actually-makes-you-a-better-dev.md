@@ -3,6 +3,7 @@ layout: post
 title: "Why Taking Breaks Actually Makes You a Better Developer"
 date: 2025-11-23 08:00:00 -0700
 categories: [personal-blog]
+tags: [burnout, productivity]
 ---
 
 I have learned that pushing myself nonstop does not make me sharper. It does not make me faster. It definitely does not make me write better code. What it does is burn me out and make simple tasks feel way harder than they should.

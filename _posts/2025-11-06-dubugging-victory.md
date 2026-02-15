@@ -3,6 +3,7 @@ layout: post
 title: "Debugging Victory"
 date: 2025-11-06 08:00:00 -0700
 categories: [personal-blog]
+tags: [frontend, nuxt, typescript, debugging]
 ---
 
 Today was one of those days that reminded me why I love being a developer.

@@ -3,6 +3,7 @@ layout: post
 title: "Holiday Recharge and Dev Adventures"
 date: 2026-2-6 08:00:00 -0700
 categories: [personal-blog]
+tags: [planning]
 ---
 
 The holidays are a great reminder of the simple things: cozy evenings, good food, and most importantly, **quality time with family**. It’s amazing how stepping away from screens for a little bit can help you hit reset and come back with fresh energy.

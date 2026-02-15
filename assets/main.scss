@@ -3,3 +3,65 @@
 ---
 
 @import "minima";
+
+/* Search input */
+.post-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.post-search:focus {
+  outline: none;
+  border-color: #888;
+  background-color: #f9f9f9;
+}
+
+/* Related posts pagination */
+#related-posts-pagination {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
+}
+
+#related-posts-pagination button {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+#related-posts-pagination button:hover:not(:disabled) {
+  background-color: #e0e0e0;
+  border-color: #ccc;
+}
+
+#related-posts-pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Post tags and categories */
+.post-tags,
+.post-categories {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.post-tags .tag,
+.post-categories .category {
+  background: #eee;
+  border-radius: 4px;
+  padding: 0 0.35rem;
+  font-weight: 500;
+}

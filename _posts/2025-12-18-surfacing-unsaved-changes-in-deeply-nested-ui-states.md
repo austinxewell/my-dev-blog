@@ -2,7 +2,8 @@
 layout: post
 title: "Surfacing Unsaved Changes in Deeply Nested UI State"
 date: 2025-12-18 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [state-management, problem-solving]
 ---
 
 Recently I worked through a UI problem that looked simple on the surface but got complex fast. The goal was straightforward. Let users know when they have **unsaved changes**. The challenge was how deep those changes could live in the data.
