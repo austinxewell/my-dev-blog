@@ -3,6 +3,7 @@ layout: post
 title: "Keeping My Workflow Organized Keeps Me Sane"
 date: 2025-11-25 08:00:00 -0700
 categories: [personal-blog]
+tags: [workflow]
 ---
 
 I have learned that my workflow can either **boost my momentum** or **wreck my entire day**. When things are organized, everything feels smooth. Tasks line up, priorities make sense, and development feels a lot less like chaos and a lot more like progress.

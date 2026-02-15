@@ -2,7 +2,8 @@
 layout: post
 title: "User Avatar Components"
 date: 2025-11-13 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, ux-ui, vue, nuxt]
 ---
 
 If you’ve ever logged into a site and saw your little circle with your face (or initials) staring back at you, you’ve met a **user avatar**. Seems simple, right? But building one that’s flexible, reliable, and visually polished is deceptively tricky.

@@ -2,7 +2,8 @@
 layout: post
 title: "The Value of a Real Workflow Standard"
 date: 2025-11-14 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [workflow, process]
 ---
 
 As I keep growing in my development career, one thing is becoming very clear to me. A fast growing environment with multiple teams and multiple projects needs a real workflow standard. Without it, everything feels scattered. Everyone has their own style, their own process, their own interpretation of what “done” means.

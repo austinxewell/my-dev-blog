@@ -2,7 +2,8 @@
 layout: post
 title: "Why Code Reviews Actually Matter"
 date: 2025-11-20 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, backend, code-reviews, best-practices]
 ---
 
 The longer I work in development, the more I realize how important real code reviews are. It is not just about catching typos or finding the obvious bugs. A good code review forces you to slow down and look at your work from another angle. It exposes blind spots you did not even know you had.

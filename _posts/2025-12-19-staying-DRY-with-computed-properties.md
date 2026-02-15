@@ -2,7 +2,8 @@
 layout: post
 title: "Staying DRY With Computed Properties in Vue and Nuxt"
 date: 2025-12-19 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [frontend, vue, nuxt]
 ---
 
 Lately I have been paying a lot more attention to **DRY code**, both in my own development updates and during code reviews. It is one of those principles that sounds obvious, but it is surprisingly easy to drift away from when features start piling up.

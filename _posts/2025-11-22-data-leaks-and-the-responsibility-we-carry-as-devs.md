@@ -2,7 +2,8 @@
 layout: post
 title: "Data Leaks and the Responsibility We Carry as Developers"
 date: 2025-11-22 08:00:00 -0700
-categories: [personal-blog]
+categories: [personal-blog, public]
+tags: [ai, data-security, best-practices]
 ---
 
 Data leaks have always been a real threat, but the rise of AI in the development world has pushed that risk into a whole new category. AI tools are becoming a normal part of everyday work. They speed up planning, writing, debugging, and refactoring. They make development smoother and more efficient. I rely on them, and honestly, I enjoy using them.

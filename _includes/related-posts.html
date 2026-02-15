@@ -1,53 +1,74 @@
-{%- comment -%}
-RULES:
-1. If page is personal-blog → NO related section
-2. personal-blog is ignored for overlap, not excluded
-3. Related posts require overlap in non-personal categories
-{%- endcomment -%}
+{% comment %}
+Related Posts Include
+- Shows posts sharing at least one tag with current post
+- Excludes current post
+- Paginated 5 per page if needed
+{% endcomment %}
 
-{% if page.show_related == false %}
-  {% assign show = false %}
-{% elsif page.categories contains "personal-blog" %}
-  {% assign show = false %}
-{% else %}
-  {% assign show = true %}
+{% assign related_posts = "" | split: "" %}
+
+{% if page.tags %}
+  {% assign page_tags = page.tags %}
+
+  {% for post in site.posts %}
+    {% if post.url != page.url and post.tags %}
+      {% assign match = false %}
+      {% for tag in post.tags %}
+        {% if page_tags contains tag %}
+          {% assign match = true %}
+        {% endif %}
+      {% endfor %}
+
+      {% if match %}
+        {% assign related_posts = related_posts | push: post %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
-{% if show %}
+{% if related_posts.size > 0 %}
 <section class="related-posts">
   <h3>Related Posts</h3>
-
-  <ul>
-    {% assign related_count = 0 %}
-
-    {%- assign page_categories =
-      page.categories | where_exp: "c", "c != 'personal-blog'"
-    -%}
-
-    {% for post in site.posts %}
-      {% if post.url != page.url and post.categories %}
-
-        {%- assign post_categories =
-          post.categories | where_exp: "c", "c != 'personal-blog'"
-        -%}
-
-        {% assign overlap = post_categories | intersection: page_categories %}
-
-        {% if overlap.size > 0 %}
-          <li>
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-          </li>
-
-          {% assign related_count = related_count | plus: 1 %}
-        {% endif %}
-      {% endif %}
-
-      {% if related_count >= 5 %}
-        {% break %}
-      {% endif %}
+  <ul id="related-posts-list">
+    {% for post in related_posts %}
+      <li class="related-post-item">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
     {% endfor %}
   </ul>
+
+  {% if related_posts.size > 5 %}
+  <div id="related-posts-pagination">
+    <button type="button" id="related-prev" disabled>Prev</button>
+    <button type="button" id="related-next">Next</button>
+  </div>
+  {% endif %}
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const posts = document.querySelectorAll(".related-post-item");
+  const prevBtn = document.getElementById("related-prev");
+  const nextBtn = document.getElementById("related-next");
+  const perPage = 5;
+  let currentPage = 1;
+  const totalPages = Math.ceil(posts.length / perPage);
+
+  function showPage(page) {
+    const start = (page - 1) * perPage;
+    const end = start + perPage;
+    posts.forEach((post, i) => {
+      post.style.display = i >= start && i < end ? "list-item" : "none";
+    });
+    prevBtn.disabled = page === 1;
+    nextBtn.disabled = page === totalPages;
+  }
+
+  if (posts.length > perPage) {
+    showPage(currentPage);
+    prevBtn.addEventListener("click", () => { if (currentPage > 1) { currentPage--; showPage(currentPage); }});
+    nextBtn.addEventListener("click", () => { if (currentPage < totalPages) { currentPage++; showPage(currentPage); }});
+  }
+});
+</script>
 {% endif %}
