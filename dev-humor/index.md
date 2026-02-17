@@ -5,6 +5,8 @@ permalink: /dev-humor/
 nav: true
 ---
 
+![React Logic](https://i.imgflip.com/2kuh6f.jpg)
+
 ![Working Code](https://miro.medium.com/v2/resize:fit:1000/1*YZjNE4fnXsR6ov5m7pRrqA.jpeg)
 
 ![Spider Webs](https://i.programmerhumor.io/2023/05/programmerhumor-io-frontend-memes-programming-memes-bbaac14132a5e6f.jpg)
