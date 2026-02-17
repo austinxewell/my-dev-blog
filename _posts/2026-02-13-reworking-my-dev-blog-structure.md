@@ -2,8 +2,8 @@
 layout: post
 title: "Reworking My Dev Blog Structure (and Why It Was Necessary)"
 date: 2026-2-13 08:00:00 -0700
-categories: [personal-blog, public]
-tags: [jekyll, content-organization]
+categories: [personal-blog]
+tags: [jekyll, content-organization, dev-blog]
 ---
 
 Yesterday I finally fixed something that had been bugging me for a while: how my personal dev logs were structured.

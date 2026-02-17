@@ -3,7 +3,7 @@ layout: post
 title: "Backend Progress"
 date: 2025-11-05 08:00:00 -0700
 categories: [personal-blog]
-tags: [backend, api, authentication, sql, devops]
+tags: [backend, api, authentication, sql, devops, portfolio]
 ---
 
 Today I wrapped up the **basic CRUD operations** for the back-end of my online portfolio.

@@ -3,7 +3,7 @@ layout: post
 title: "Portfolio Update and Planning"
 date: 2025-11-07 08:00:00 -0700
 categories: [personal-blog]
-tags: [frontend, backend, ux-ui]
+tags: [frontend, backend, ux-ui, portfolio]
 ---
 
 Today I dove into connecting the backend I built for my online portfolio with a front-end interface. It's always exciting to see personal projects evolve, especially when professional growth starts showing in the details.

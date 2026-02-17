@@ -2,8 +2,8 @@
 layout: post
 title: "Revamping the Dev Blog: UX, Reusability, and Better Navigation"
 date: 2026-02-15
-categories: [personal-blog, public]
-tags: [jekyll, frontend, ux-ui]
+categories: [personal-blog]
+tags: [jekyll, frontend, ux-ui, dev-blog]
 ---
 
 Over the past couple of days, I've been deep in the weeds reworking the UX and UI of my dev blog. The goal? Make it cleaner, more reusable, and most importantly, easier to navigate. 🛠️

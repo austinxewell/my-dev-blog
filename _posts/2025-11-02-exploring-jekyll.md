@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring Jekyll"
 date: 2025-11-02 01:09:33 -0700
-categories: [personal-blog, public]
+categories: [personal-blog, public, dev-blog]
 tags: [jekyll]
 ---
 

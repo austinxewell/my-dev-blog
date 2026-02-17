@@ -15,3 +15,7 @@ Since this post shares the category `Intro to Jekyll` with Part 1, the **related
 This is my way of creating a little conversation between posts. As I add more posts in this series, they’ll all show up here, neatly connected, like a choose-your-own-adventure for my learning journey.
 
 Stay tuned for Part 3… who knows what Jekyll tricks we’ll discover next! 🎩
+
+**Update** 2026/02/16
+
+The categories and tags have been reworked since this post and this post no longer has the `Intro to Jekyll` category. I have simplified the categories and created a tagging system to link related posts. You can view the related posts based on related tags.

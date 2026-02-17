@@ -2,8 +2,8 @@
 layout: post
 title: "My Portfolio Is Officially Full Stack"
 date: 2025-12-20 08:00:00 -0700
-categories: [personal-blog, public]
-tags: [frontend, backend, api, ci-cd]
+categories: [personal-blog]
+tags: [frontend, backend, api, ci-cd, portfolio]
 ---
 
 I finally pushed a set of changes that make my online portfolio feel like a _real_ application instead of just a static showcase. The front end is now fully connected to my deployed backend, and everything is wired together the way I would expect in a professional environment.
