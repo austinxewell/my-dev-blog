@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Imposter Syndrome, Interviews, and the Weight of the Job Search"
-date: 2026-02-17
+date: 2026-02-19
 categories: [personal-blog]
 tags: [career, interviews, growth]
 ---
