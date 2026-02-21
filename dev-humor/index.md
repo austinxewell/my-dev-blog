@@ -5,6 +5,8 @@ permalink: /dev-humor/
 nav: true
 ---
 
+![Next Level](https://miro.medium.com/v2/resize:fit:1400/1*kW7g6r9Pr7tIlhihroQ9zA.png)
+
 ![React Logic](https://i.imgflip.com/2kuh6f.jpg)
 
 ![Working Code](https://miro.medium.com/v2/resize:fit:1000/1*YZjNE4fnXsR6ov5m7pRrqA.jpeg)
