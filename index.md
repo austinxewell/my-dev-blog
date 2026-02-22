@@ -18,7 +18,7 @@ title: "Hi, I'm Austin 👋"
 
 ---
 
-## Some of The Projects I’ve Worked on Include: 🚀
+## 🚀 Some of The Projects I’ve Worked on Include
 
 <div class="projects">
 
@@ -42,7 +42,7 @@ CLI tool that automates ESLint setup for Nuxt projects, improving developer work
 
 ---
 
-## A Quick Look At My Common Tech Stack 🛠️
+## 🛠️ A Quick Look At My Common Tech Stack
 
 <div class="tech-grid">
 
