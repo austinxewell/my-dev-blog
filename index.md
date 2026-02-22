@@ -11,7 +11,7 @@ title: "Hi, I'm Austin 👋"
   <div class="hero-content">
     <h2>Frontend Engineer | Nuxt & TypeScript</h2>
     <p>
-        I’m a <strong>Frontend Engineer</strong> focused on building <strong>scalable, maintainable, and user-friendly web applications</strong>. I specialize in <strong>Nuxt, TypeScript, Vue, and modern front-end architectures</strong>, and I enjoy translating complex design and product requirements into seamless user experiences.
+        I’m a <strong>Frontend Engineer</strong> focused on building <strong>scalable, maintainable, and user-friendly web applications</strong>. I specialize in <strong>Nuxt, TypeScript, Vue, and modern frontend architectures</strong>, and I enjoy translating complex design and product requirements into seamless user experiences.
     </p>
   </div>
 </div>
