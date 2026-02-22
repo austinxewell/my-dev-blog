@@ -18,7 +18,7 @@ title: "Hi, I'm Austin 👋"
 
 ---
 
-## Some of the projects I’ve worked on include: 🚀
+## Some of The Projects I’ve Worked on Include: 🚀
 
 <div class="projects">
 
