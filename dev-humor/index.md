@@ -5,6 +5,8 @@ permalink: /dev-humor/
 nav: true
 ---
 
+![Why!](https://plaky.com/blog/programming-memes/)
+
 ![Next Level](https://miro.medium.com/v2/resize:fit:1400/1*kW7g6r9Pr7tIlhihroQ9zA.png)
 
 ![React Logic](https://i.imgflip.com/2kuh6f.jpg)
