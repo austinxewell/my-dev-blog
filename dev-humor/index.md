@@ -5,7 +5,7 @@ permalink: /dev-humor/
 nav: true
 ---
 
-![Why!](https://plaky.com/blog/programming-memes/)
+![Why!](https://plaky.com/blog/wp-content/uploads/2023/08/Your-old-code.jpg)
 
 ![Next Level](https://miro.medium.com/v2/resize:fit:1400/1*kW7g6r9Pr7tIlhihroQ9zA.png)
 
