@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Maintainability Matters More Than Shipping Features"
-date: 2026-02-17
+date: 2026-02-26
 categories: [public, personal-blog]
 tags: [maintainability, architecture, scalability, code-quality]
 ---
