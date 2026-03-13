@@ -5,6 +5,8 @@ permalink: /dev-humor/
 nav: true
 ---
 
+![Eating Along](https://i.programmerhumor.io/2021/10/programmerhumor-io-frontend-memes-javascript-memes-483c4ba17de3ce2.jpg)
+
 ![Why!](https://plaky.com/blog/wp-content/uploads/2023/08/Your-old-code.jpg)
 
 ![Next Level](https://miro.medium.com/v2/resize:fit:1400/1*kW7g6r9Pr7tIlhihroQ9zA.png)
