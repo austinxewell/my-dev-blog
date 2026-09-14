@@ -4,7 +4,7 @@ title: July 2026
 permalink: /log/2026/september/
 ---
 
-<h1>March 2026</h1>
+<h1>July 2026</h1>
 
 <ul class="log-list">
   {% for post in site.posts %}
