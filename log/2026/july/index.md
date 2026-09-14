@@ -1,7 +1,7 @@
 ---
 layout: default
 title: July 2026
-permalink: /log/2026/september/
+permalink: /log/2026/july/
 ---
 
 <h1>July 2026</h1>
