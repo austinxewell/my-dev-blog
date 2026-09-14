@@ -2,7 +2,7 @@
 layout: post
 title: "The Developer Job Search Is Brutal"
 date: 2026-09-14
-categories: [public, personnel-blog]
+categories: [public, personal-blog]
 tags:
   [
     job-search,
