@@ -2,8 +2,16 @@
 layout: post
 title: "AI Won't Replace Developers But It Will Change Them"
 date: 2026-07-09
-categories: [public]
-tags: [artificial-intelligence, software-development, career-growth, prompt-engineering, software-engineering, developer-mindset]
+categories: [public, personal-blog]
+tags:
+  [
+    artificial-intelligence,
+    software-development,
+    career-growth,
+    prompt-engineering,
+    software-engineering,
+    developer-mindset,
+  ]
 ---
 
 If you've spent any time on developer Twitter, LinkedIn, or YouTube lately, you've probably heard the phrase **"vibe coding."**
@@ -50,7 +58,7 @@ It's evolved.
 
 Writing code is becoming less of the bottleneck.
 
-Understanding *what* should be built is becoming more valuable.
+Understanding _what_ should be built is becoming more valuable.
 
 Can you:
 
@@ -74,7 +82,7 @@ I actually think "vibe coding" gets a bad reputation.
 
 There's nothing inherently wrong with using AI to move faster.
 
-The danger comes when developers stop asking *why* something works.
+The danger comes when developers stop asking _why_ something works.
 
 If you're blindly accepting every suggestion because "the AI wrote it," you're outsourcing the very skill you're trying to build.
 
