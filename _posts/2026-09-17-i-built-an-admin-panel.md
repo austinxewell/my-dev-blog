@@ -1,14 +1,9 @@
 ---
 layout: post
 title: "I Built an Admin Panel That Nobody Can See But Me"
-date: 2026-09-17 14:30:00 -0600
-categories:
-  - personal-blog
-tags:
-  - nodejs
-  - authentication
-  - nuxt
-  - backend
+date: 2026-09-17
+categories: [personal-blog]
+tags: [node, authentication, nuxt, frontend, backend]
 ---
 
 Every time I edited my portfolio site, it went the same way: open the code, find the hardcoded string, change it, commit, deploy. For a site I touch a few times a year, that was fine. But somewhere in the last few months my portfolio stopped being a static "here's my resume" page and started turning into something I actually wanted to operate like a real app. So this week I finally did something about the editing problem. 🔧
