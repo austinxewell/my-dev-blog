@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: AuEwellify Dev Blog
-email: austin.ewell86@gmail.com
+email: austin@auewellify.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I’m Austin, a Full Stack Web Developer. I build projects, share insights, and occasionally geek out over cool web tricks and experiments.
 
