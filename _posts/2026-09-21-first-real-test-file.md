@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Real Test File
-date: '2026-09-21'
+date: "2026-09-21"
 categories:
   - personal-blog
 tags:
@@ -10,19 +10,45 @@ tags:
   - tooling
   - problem-solving
 ---
-I am have had a bottle neck when it comes to writing my own blog posts. Because I am using jykell I have to actually open my IDE, create a file, generate the markdown, preview it separately, and then push it to github. This has genuinely made me talk myself out of posting from time to time. I then had this realization... "Hey, I'm a developer, I can fix this bottleneck.
+
+I have had a bottleneck when it comes to writing my own blog posts.
+
+Because I'm using Jekyll, I have to open my IDE, create a file, write the Markdown, preview it separately, and then push it to GitHub. None of those steps are particularly difficult, but together they create just enough friction to make me talk myself out of posting from time to time.
+
+Then I had a realization...
+
+> Hey, I'm a developer. I can fix this bottleneck.
 
 ### The Solution
 
-I knew it wouldn't be overly difficult to create a local tool that I can use on my machine to display the markdown next to what I'm typing so I can see my blog post in real time as I'm writing it. I also know that creating a basic terminal command could then push that file directly to my cloned repository where github would then automatically post it to my deployed url. This is where I got started. I created a very basic script, you know the type
+I knew it wouldn't be overly difficult to create a local tool that I could use on my machine to display the Markdown next to what I'm typing. That way, I could see my blog post rendered in real time while I write it.
 
-```
-public/index.html
+I also knew that creating a basic terminal command could allow me to push the finished file directly to my cloned repository. From there, GitHub would handle the rest and automatically deploy the post to my website.
+
+That sounded a lot better than manually opening my IDE every time I wanted to write something.
+
+So that's where I started.
+
+I created a very basic application with a structure that looked something like this:
+
+```text
+public/
+  index.html
 server.js
 .env
 package.json
 ```
 
-This is my starting point. Here I'm able to create a basic UI and a server that will post my content, infact, You're looking at the first true post created with this UI.
+Nothing fancy. Just a basic UI, a small server, and the pieces I needed to start experimenting with the workflow.
 
-Party Time! 🥳
+The goal at this stage wasn't to build some polished blogging platform. I just wanted to remove the friction between having an idea for a post and actually publishing it.
+
+And honestly, that's exactly what this is about.
+
+I'm looking at the first true blog post created using this new UI.
+
+The tool is still extremely basic, and there is plenty I want to improve. But that's kind of the point. I identified a problem in my own workflow, realized I had the skills to solve it, and started building a solution instead of continuing to work around the problem.
+
+Now I can write my posts, see the rendered Markdown in real time, and eventually publish them without ever needing to leave the tool.
+
+Party time! 🥳
